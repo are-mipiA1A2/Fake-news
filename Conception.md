@@ -20,20 +20,33 @@ Les agents sont :
 - opinion
 - pouvoir de persuasion
 - degré de malveillance
+- valeur de "connexion" du média en fonction de son type (ex: valeur d'un site Internet > valeur d'un journal)
 
 **__Procédures__**
 
 - création de la fake news
 - prise de décision (changement d'opinion ou non)
 - diffusion par l'agent s'il est convaincu
- ### 
 
-Les différents agents sont:
- - une population de N individus, modelisée par une matrice;
- - une source d'informations, modelisée par un entier qui prend la valeur 0 ou 1;
- - une entreprise spécialiée dans la production de fausses informations, modélisée par un entier qui prend la valeur 0 ou  1
+ ### Interactions
+ Nous distinguerons 2 types d'interactions : discussion physique et consultation à distance. Ces 2 types engendreront des influences différentes sur la prise de décision :
  
+ 1. Discussion physique :
+ - influence du pouvoir de persuasion accrue
+ - influence de l'opinion (sois convaincu et tu convaincras les autres...)
+ - influence de la crédibilité de la news elle-même
  
+ 2. Consultation à distance :
+ - influence de la crédibilité de la news
+ - influence de la fréquece d'exposition antérieure à la même news
+
+
+
+
+
+
+
+
 Attributs:
     opinion, initialisée à 0
     nombre de réseau sociaux sur lequel est inscrit l'individu
