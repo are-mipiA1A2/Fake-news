@@ -7,7 +7,7 @@ Les agents sont :
 - des individus
 - des organismes médiatiques
 
-**__Attributs__**
+**_Attributs_**
 
 1. Des individus :
 - opinion (binaire, initialisée à 0)
@@ -22,7 +22,7 @@ Les agents sont :
 - degré de malveillance
 - valeur de "connexion" du média en fonction de son type (ex: valeur d'un site Internet > valeur d'un journal)
 
-**__Procédures__**
+**_Procédures_**
 
 - création de la fake news
 - prise de décision (changement d'opinion ou non)
