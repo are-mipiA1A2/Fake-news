@@ -4,3 +4,5 @@ Le projet consiste en la modélisation de la diffusion de fake news dans une pop
 Nous étudierons ainsi l'influence des réseaux sociaux sur la vitesse et l'ampleur de la propagation de l'information.
 
 _Aya SADOUKI - Ruxue ZENG - Jenny OGOLO (ARE Dynamic MIPI A1/A2)_
+
+(https://github.com/are-mipiA1A2/Fake-news/blob/master/Conception%20-%20Def%20du%20syst%C3%A8me%2Benvt.md)
