@@ -1,4 +1,32 @@
+# Conception
 
+## Système
+
+### Agents
+Les agents sont :
+- des individus
+- des organismes médiatiques
+
+**__Attributs__**
+
+1. Des individus :
+- opinion (binaire, initialisée à 0)
+- crédulité
+- pouvoir de persuasion
+- nombre de réseaux sociaux sur lesquels est inscrit l'individu
+- degré de malveillance
+
+2. Des organismes médiatiques :
+- opinion
+- pouvoir de persuasion
+- degré de malveillance
+
+**__Procédures__**
+
+- création de la fake news
+- prise de décision (changement d'opinion ou non)
+- diffusion par l'agent s'il est convaincu
+ ### 
 
 Les différents agents sont:
  - une population de N individus, modelisée par une matrice;
