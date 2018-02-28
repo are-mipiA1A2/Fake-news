@@ -20,7 +20,7 @@ Les agents sont :
 - opinion
 - pouvoir de persuasion
 - degré de malveillance
-- valeur de "connexion" du média en fonction de son type (ex: valeur d'un site Internet > valeur d'un journal)
+- valeur de connectivité du média en fonction de son type (ex: valeur d'un site Internet > valeur d'un journal)
 
 **_Procédures_**
 
@@ -47,4 +47,4 @@ L'environnement **global** sera constitué de plusieurs réseaux représentés p
 L'environnement **local**, lui, correspond au voisinage.
 
 **__Variables :__**  
-- nombre de réseaux (caractérise le degré de connexion du milieu)
+- nombre de réseaux (caractérise le degré de connectivité du milieu)
