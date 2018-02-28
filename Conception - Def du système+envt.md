@@ -32,7 +32,7 @@ Les agents sont :
  Nous distinguerons 2 types d'interactions : discussion physique et consultation à distance. A la suite de l'interaction, une prise de décision sera effectuée. Cependant, le type d'interaction influera sur la prise de décision de la manière suivante :
  
  1. Discussion physique :
- - influence du pouvoir de persuasion accrue
+ - influence du pouvoir de persuasion **accrue**
  - influence de l'opinion (sois convaincu et tu convaincras les autres...)
  - influence de la crédibilité de la news elle-même
  - influence du voisinage
