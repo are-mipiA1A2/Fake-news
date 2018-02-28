@@ -43,32 +43,8 @@ Les agents sont :
  - influence du voisinage
 
 ## Environnement
-L'environnement **global** sera constitué de plusieurs réseaux représentés par des listes ou des listes de dictionnaires. Il y aura des réseaux sociaux et un réseau physique (de discussion). Ces réseaux constitueront la possibilité d'interaction entre 2 agents.  
+L'environnement **global** sera constitué de plusieurs réseaux représentés par des graphes (listes ou des listes de dictionnaires). Il y aura des réseaux sociaux et un réseau physique (de discussion). Ces réseaux constitueront la possibilité d'interaction entre 2 agents.  
 L'environnement **local**, lui, correspond au voisinage.
 
 **__Variables :__**  
 - nombre de réseaux (caractérise le degré de connexion du milieu)
-
-
-
-
-
-
-Attributs:
-    opinion, initialisée à 0
-    nombre de réseau sociaux sur lequel est inscrit l'individu
-    seuil de confiance en la source
-    fréquence d'exposition antérieure aux fausses informations
-    âge
-    force de persuasion de la source
-    
-Paramètres:
-    influence de la source d'information
-    intensité de la fausse information
-    
-Un individu i appartenant à N a dans son voisinage un autre individu j appartenant à N. 
-  Le but serait d'incrémenter un à un les paramètres ainsi que les attributs de i et d'observer si 
-
-
-On pourra lorsque on change la valeur d'un des attributs, la stocker dans une variable.
-
