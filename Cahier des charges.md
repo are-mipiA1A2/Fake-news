@@ -26,8 +26,10 @@ Les paramètres principaux qui entrent en jeu sont :
 
 **_Validation de l'étude :_**
 
-N'ayant pas accès à des données concrètes sur ce sujet, nous devons nous baser sur des prédictions empiriques pour identifier les facteurs qui influent positivement ou négativement sur la diffusion. Par exemple, nous pouvons intuiter qu'une information provenant d'une source sûre sera plus relayée. De plus, afin d'étayer nos résultats, nous pouvons analyser certaines fausses informations précédemment relayées pour tenter d'en estimer l'ampleur de propagation (en relevant par exemple le nombre de pays ou le nombre de sites dans lesquels l'information a été retransmise).
+> N'ayant pas accès à des données concrètes sur ce sujet, nous devons nous baser sur des prédictions empiriques pour identifier les facteurs qui influent positivement ou négativement sur la diffusion. Par exemple, nous pouvons intuiter qu'une information provenant d'une source sûre sera plus relayée. De plus, afin d'étayer nos résultats, nous pouvons analyser certaines fausses informations précédemment relayées pour tenter d'en estimer l'ampleur de propagation (en relevant par exemple le nombre de pays ou le nombre de sites dans lesquels l'information a été retransmise).
+
 	Cependant, il faut préciser que ces analyses ne nous donneront qu'une idée. En effet, la propagation d'une fake news est difficilement quantifiable dans la mesure où ce n’est parfois qu'une parole, une discussion entre deux personnes.
+
 
 **_Ebauche de la modélisation :_**
 
@@ -44,7 +46,9 @@ PC + PC 	= PC + PC
 - interaction PC/PNC :
 
 PC + PNC 	= PC + PC
+
 PC + PNC 	= PC + PNC
+
 PC + PNC 	= PNC + PNC
 - interaction O/PC :
 
@@ -55,7 +59,9 @@ O + PNC 	= O + PC
 O + PNC 	= O + PNC
 
 **__Répartition des tâches : (indicatif, très indicatif…)__**
-	Nous établirons toutes les trois les grandes lignes du code. Puis, nous nous répartirons la modification du code en fonction des paramètres de la manière suivante :
+        .
+        Nous établirons toutes les trois les grandes lignes du code. Puis, nous nous répartirons la modification du code en fonction des paramètres de la manière suivante :
+        
 Jenny : fréquence d'exposition antérieure
 Ruxue : crédibilité de la source d'informations + crédibilité de l'information
 Aya : nombre de réseaux sociaux sur lequel est inscrit de l'individu + influence du voisinage
