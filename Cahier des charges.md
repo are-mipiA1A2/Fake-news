@@ -37,7 +37,7 @@ Cependant, il faut préciser que ces analyses ne nous donneront qu'une idée. En
 Les agents peuvent être des **personnes** ou des **organismes médiatiques**. Ceux-ci seront représentés en **deux dimensions**. On distinguera les agents neutres et les agents "malveillants" comme, par exemple, des organismes spécialisés dans la production de fausses informations.
 
 ### Interactions :
-Une information peut être transmise entre deux personnes qui discutent, entre deux personnes reliées par un réseau social ou entre un organisme médiatique (média audiovisuel, site Internet, journal, …) et une personne qui le consulte. Les agents pourront donc interagir **directement** (discussion entre deux agents s'ils sont humains) ou **indirectement**(diffusion par l'Internet ou relai par l'organisme médiatique). De plus, des interactions seront possibles entre personnes convaincues (PC), personnes non convaincues (PNC), organismes médiatiques (O).
+Une information peut être transmise entre deux personnes qui discutent, entre deux personnes reliées par un réseau social ou entre un organisme médiatique (média audiovisuel, site Internet, journal, …) et une personne qui le consulte. Les agents pourront donc interagir **directement** (discussion entre deux agents s'ils sont humains) ou **indirectement** (diffusion par l'Internet ou relai par l'organisme médiatique). De plus, des interactions seront possibles entre personnes convaincues (PC), personnes non convaincues (PNC), organismes médiatiques (O).
 
 A la suite d'une interaction, plusieurs cas sont envisageables :
 - interaction PNC/PNC :
