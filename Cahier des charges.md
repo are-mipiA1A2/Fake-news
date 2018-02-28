@@ -1,7 +1,7 @@
 # CAHIER DES CHARGES
 
 
-Aujourd'hui, nous sommes confrontés à une globalisation des fausses informations. Face à ce phénomène, le président Macron a d'ailleurs annoncé un projet de loi punissant la diffusion de fausses informations. Notre génération étant particulièrement active sur les réseaux sociaux, nous avons choisi de mener cette étude pour les enjeux qu'elles présentent.  En effet, manipuler des personnes par le biais de l'information profère un intérêt économique et/ou politique non négligeable.
+Aujourd'hui, nous sommes confrontés à une globalisation des fausses informations. Face à ce phénomène, le président Macron a d'ailleurs annoncé un projet de loi punissant la diffusion de fausses informations. Notre génération étant particulièrement active sur les réseaux sociaux, nous avons choisi de mener cette étude pour les enjeux qu'elles présentent.  En effet, manipuler des personnes par le biais de l'information profère un intérêt économique et/ou politique non négligeable.  
 Nous nous intéresserons donc ici aux fausses informations, appelées aussi « fake news ». Elles n'ont de nouveau que leur nom, puisqu'elles ont presque toujours existé. Cependant, l'avènement des réseaux sociaux et leur expansion planétaire ont fait exploser ce phénomène.
 
 ## Objectif :
@@ -10,12 +10,13 @@ Modéliser la propagation des fake news dans une population en fonction de diff�
 	
 ## Questions importantes autour du sujet :
 
-Que se passe-t-il lorsqu'on introduit une fausse information dans un environnement « connecté » ou non ?
-Qu'en est-il des personnes qui relaient délibérément une fausse information ?
+- Que se passe-t-il lorsqu'on introduit une fausse information dans un environnement « connecté » ou non ?
+- Qu'en est-il des personnes qui relaient délibérément une fausse information ?
 
 ## Phénomène d’étude :
 
-Le projet consiste en la modélisation de la diffusion de fake news dans une population de N individus ayant une opinion **binaire** initialisée à 0.  
+Le projet consiste en la modélisation de la diffusion de fake news dans une population de N individus ayant une opinion **binaire** initialisée à 0.
+
 Les paramètres principaux qui entrent en jeu sont :
 - Le nombre d’individus
 - La fréquence d’exposition antérieure à ces fake news
