@@ -15,6 +15,7 @@ Les agents sont :
 - pouvoir de persuasion
 - nombre de réseaux sociaux sur lesquels est inscrit l'individu
 - degré de malveillance
+- booléen représentant l'exposition antérieure
 
 2. Des organismes médiatiques :
 - opinion
