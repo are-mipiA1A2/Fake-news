@@ -1,0 +1,61 @@
+import numpy as np
+
+def bounded_update_opinion(x, y, N):
+    """Rule to use to update the opinions."""
+    
+    #modification de l'opinion binaire de x et y en fonction de f, une force de persuasion tirée aléatoirement dans la liste L
+    #L étant la liste des forces de persuasion des individus dans N
+    
+    L= np.random.uniform(low=0.0, high=1.0, size=20)
+    for f in np.random.choice(L, size=1):
+        print('L=',L)
+        print('f:',f)
+        if f>0.8:
+            x = x + 1
+            y = y + 1
+            
+    return x, y
+
+x=0
+y=0
+N=15
+print(bounded_update_opinion(x, y, N))
+
+
+
+
+
+import numpy as np
+
+N=15
+LR={c:(np.random.choice([0,1]),np.random.choice([False,True]),d) for c in range(N) 
+    for d in np.random.randint(10,size=N,dtype=int)}
+print("LR=",LR)
+
+def crédulité(c1, c2, LR):
+    #changement de l'opinion selon la crédulité des agents lorsque les deux agents se rencontrent
+    
+    op1,dejavu1,créd1=LR[c1]
+    op2,dejavu2,créd2=LR[c2]
+    if (dejavu1==False):
+        if (dejavu2==True):
+            dejavu1=True
+            op1=op2
+    elif dejavu2==False:
+        if (dejavu1==True):
+            dejavu2=True
+            op2=op1
+
+    elif (dejavu1==True) and (dejavu2==True):    
+        if créd1>créd2:
+            op2=op1
+        elif créd1<créd2:
+            op1=op2
+    
+    LR[c1]=(op1,dejavu1,créd1)
+    LR[c2]=(op2,dejavu2,créd2)
+    
+    return LR
+
+
+print("New_LR=",crédulité(3, 5, LR))
