@@ -12,6 +12,6 @@ Nous avons tous d'abord créer les fonctions gérant les différents paramètres
 
 Puis nous avons créer la matrice générale contenant aussi bien les différents individus que les organismes médiatiques.
 
-Nous avons également définit une fonction pour sélectionner les voisins d'un individu et travaillons à la modélisation graphique de notre dynamique des opinions.
+Nous avons également définit une fonction pour sélectionner les voisins d'un individu et travaillé à la modélisation graphique de notre dynamique des opinions.
 
 [Modélisation graphique](https://github.com/are-mipiA1A2/Fake-news/blob/master/Mod%C3%A9lisation%20graphique.ipynb)
