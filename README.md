@@ -7,3 +7,9 @@ _Aya SADOUKI - Ruxue ZENG - Jenny OGOLO (ARE Dynamic MIPI A1/A2)_
 
 [Cahier des charges](https://github.com/are-mipiA1A2/Fake-news/blob/master/Analyse%20-%20cahier%20des%20charges.md)  
 [Conception](https://github.com/are-mipiA1A2/Fake-news/blob/master/Conception%20-%20Def%20du%20syst%C3%A8me%2Benvt.md)
+
+Nous avons tous d'abord créer les fonctions gérant les différents paramètres.
+
+Puis nous avons créer la matrice générale contenant aussi bien les différents individus que les organismes médiatiques.
+
+Nous sommes actuellement en train de définir une fonction pour sélectionner les voisins d'un individu et travaillons à la modélisation graphique de notre dynamique des opinions.
