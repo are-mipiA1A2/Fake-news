@@ -31,17 +31,17 @@
 
 ## Liste des expériences :
 
-Pourcentage de personnes qui croient au bout certains étapes:  
--en fonction de Crédibilité de la news  
--en fonction de Degré de malveillance de l'envt  
--en fonction de Seuil de persuasion  
+**Pourcentage de personnes qui croient au bout certains étapes** en fonction:  
+-de la Crédibilité de la news  
+-de la Degré de malveillance de l'envt  
+-du Seuil de persuasion  
 
-la moyenne des p en fonction de:  
--en fonction de Crédibilité de la news  
--en fonction de Degré de malveillance de l'envt   
--en fonction de Seuil de persuasion  
+**la moyenne des p** en fonction de:  
+-de la Crédibilité de la news  
+-de la Degré de malveillance de l'envt  
+-du Seuil de persuasion  
 
-Ecart-type des p en fonction de:  
--en fonction de Crédibilité de la news  
--en fonction de Degré de malveillance de l'envt   
--en fonction de Seuil de persuasion  
+**Ecart-type des p** en fonction de:  
+-de la Crédibilité de la news  
+-de la Degré de malveillance de l'envt  
+-du Seuil de persuasion  
