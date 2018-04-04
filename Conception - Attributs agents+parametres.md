@@ -28,3 +28,20 @@
 |malv   |int    |range(N)     |à définir        |Oui        |Degré de malveillance de l'envt : compte le nb d'agents malveillants|
 |sigma  |float  |[0,1]        |à définir        |Oui        |Seuil de persuasion : val d'écart minimale entre 2 p, ou 1 p et une moyenne de p, pour modifier la conviction|
 |co     |float  |[0,selon nb réseaux]|à définir |Oui        |Connectivité du milieu : nb de réseaux sociaux moyen par individu|
+
+## Liste des expériences :
+
+Pourcentage de personnes qui croient au bout certains étapes
+-en fonction de Crédibilité de la news
+-en fonction de Degré de malveillance de l'envt 
+-en fonction de Seuil de persuasion
+
+la moyenne des p en fonction de:
+-en fonction de Crédibilité de la news
+-en fonction de Degré de malveillance de l'envt 
+-en fonction de Seuil de persuasion
+
+Ecart-type des p en fonction de:
+-en fonction de Crédibilité de la news
+-en fonction de Degré de malveillance de l'envt 
+-en fonction de Seuil de persuasion
