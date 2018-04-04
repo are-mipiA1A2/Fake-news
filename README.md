@@ -10,8 +10,11 @@ _Aya SADOUKI - Ruxue ZENG - Jenny OGOLO (ARE Dynamic MIPI A1/A2)_
 
 Nous avons tous d'abord créer les fonctions gérant les différents paramètres.
 
-Puis nous avons créer la matrice générale contenant aussi bien les différents individus que les organismes médiatiques.
+Puis nous avons créer la matrice générale contenant aussi bien les différents agents que les organismes médiatiques.
 
-Nous avons également définit une fonction pour sélectionner les voisins d'un individu et travaillé à la modélisation graphique de notre dynamique des opinions.
+Nous avons également définit une fonction qui met en évidence l'environnement d'un agent pioché aléatoirement dans la matrice et travaillé à la modélisation graphique de notre dynamique des opinions.
 
 [Modélisation graphique](https://github.com/are-mipiA1A2/Fake-news/blob/master/Mod%C3%A9lisation%20graphique.ipynb)
+
+Les tableaux décrivant les attributs des agents ainsi que les paramètres du modèle ont été créés. 
+De plus, nous avons identifiés les différents indicateurs de notre modèle c'est-à-dire les paramètres significatifs qui montrent ce qui se passe au cours de nos simulations/expériences.
