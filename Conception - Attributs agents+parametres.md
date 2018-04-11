@@ -45,3 +45,46 @@
 -de la Crédibilité de la news  
 -de la Degré de malveillance de l'envt  
 -du Seuil de persuasion  
+
+
+## Liste des agents   
+
+### _Etres humains_   
+* Rôle:     
+* Actions: 
+   - Je participe à la discussion physique et à distance   
+   - Je relaie l'information si et seulement si je la croît   
+   - J'écoute les autres, être concaincu ou pas par les autres selon leur force de persuasion   
+* Attributs caractéristiques:   
+   - Opinion binaire   
+   - deja_vu (nombre de fois qu'il a vu l'information)   
+   - Force de persuasion     
+   - Conviction   
+                                
+### _Organismes médiatiques neutres_   
+* Rôle:     
+* Actions:  
+   - Je participe à la discussion physique et à distance   
+   - Je relaie l'information si je la croît   
+   - Je démentis l'information si je ne croît pas l'information   
+* Attributs caractéristiques: 
+   - Opinion binaire   
+   - deja_vu (nombre de fois qu'il a vu l'information)   
+   - Force de persuasion ( compris entre 0.7 et 1)      
+   - Conviction (>0.5) 
+
+   
+### _Organismes médiatiques malveillant_   
+* Rôle:     
+* Actions:  
+   - Je participe à la discussion physique et à distance   
+   - Je relaie l'information même si je ne la croît pas   
+* Attributs caractéristiques: 
+   - Opinion 1   
+   - deja_vu (nombre de fois qu'il a vu l'information)   
+   - Force de persuasion ( compris entre 0.7 et 1)      
+   - Conviction (>0.5)   
+   
+## Liste des environnements   
+
+### _Reseaux Sociaux_   
