@@ -88,8 +88,8 @@
 ## Liste des environnements   
 ### _Discussion physique_
 * Caractéristiques:
-- Matrice carrée de taille N
-- 
-
-
+   - Matrice carrée de taille N_1dim
+   - Réseau discussion representé par un dictionnaire qui associe à chaque individu un tuple, de la forme   
+      dict[str:tuple[int,bool,float,float]]
+   
 ### _Reseaux Sociaux_   
