@@ -33,28 +33,28 @@
 
 **Pourcentage de personnes qui croient au bout certains étapes** en fonction:  
 -de la Crédibilité de la news  
--de la Degré de malveillance de l'envt  
+-du Degré de malveillance de l'envt  
 -du Seuil de persuasion  
 
 **la moyenne des p** en fonction de:  
 -de la Crédibilité de la news  
--de la Degré de malveillance de l'envt  
+-du Degré de malveillance de l'envt  
 -du Seuil de persuasion  
 
 **Ecart-type des p** en fonction de:  
 -de la Crédibilité de la news  
--de la Degré de malveillance de l'envt  
+-du Degré de malveillance de l'envt  
 -du Seuil de persuasion  
 
 
 ## Liste des agents   
 
 ### _Etres humains_   
-* Rôle:     
+* Rôle: Mettre en évidence l'influence d'une news sur ses attributs propres      
 * Actions: 
    - Je participe à la discussion physique et à distance   
-   - Je relaie l'information si et seulement si je la croît   
-   - J'écoute les autres, être concaincu ou pas par les autres selon leur force de persuasion   
+   - Je relaie l'information si et seulement si j'y croit   
+   - J'écoute les autres: je suis convaincu (ou pas) par les autres selon leur forces de persuasion   
 * Attributs caractéristiques:   
    - Opinion binaire   
    - deja_vu (nombre de fois qu'il a vu l'information)   
@@ -62,10 +62,10 @@
    - Conviction   
                                 
 ### _Organismes médiatiques neutres_   
-* Rôle:     
+* Rôle: Diffuser la news    
 * Actions:  
    - Je participe à la discussion physique et à distance   
-   - Je relaie l'information si je la croît   
+   - Je relaie l'information si j'y croit   
    - Je démentis l'information si je ne croît pas l'information   
 * Attributs caractéristiques: 
    - Opinion binaire   
@@ -74,8 +74,8 @@
    - Conviction (>0.5) 
 
    
-### _Organismes médiatiques malveillant_   
-* Rôle:     
+### _Organismes médiatiques malveillants_   
+* Rôle: Diffuser une fake news en sachant qu'elle est fausse    
 * Actions:  
    - Je participe à la discussion physique et à distance   
    - Je relaie l'information même si je ne la croît pas   
@@ -86,5 +86,10 @@
    - Conviction (>0.5)   
    
 ## Liste des environnements   
+### _Discussion physique_
+* Caractéristiques:
+- Matrice carrée de taille N
+- 
+
 
 ### _Reseaux Sociaux_   
