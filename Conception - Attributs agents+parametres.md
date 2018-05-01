@@ -25,7 +25,7 @@
 |:-----:|:-----:|:-----------:|:---------------:|:---------:|:---------:|
 |N      |int    |None         |à définir        |Oui        |Nombre d'individus|
 |news   |float  |[0,1]        |à définir        |Oui        |Crédibilité de la news : crédible si tend vers 1|
-|malv   |int    |range(N)     |à définir        |Oui        |Degré de malveillance de l'environnement : pourcentage d'agents malveillants dans l'envt|
+|malv   |int    |range(N)     |à définir        |Oui        |Degré de malveillance de l'environnement : pourcentage d'agents malveillants dans l'environnement|
 |co     |float  |[0,selon nb réseaux]|à définir |Oui        |Connectivité du milieu : nombre de réseaux sociaux moyen par individu|
 
 ## Liste des expériences :
